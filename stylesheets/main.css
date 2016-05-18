@@ -1,0 +1,245 @@
+/*Desktop is default design*/
+body {
+  margin: 0; }
+
+/* Graphik Light */
+@font-face {
+  font-family: 'Graphik Light';
+  src: url("https://cnry-webapp-testing.s3.amazonaws.com/fonts/Graphik-Light-Web.eot");
+  src: url("https://cnry-webapp-testing.s3.amazonaws.com/fonts/Graphik-Light-Web.eot?#iefix") format("embedded-opentype"), url("https://cnry-webapp-testing.s3.amazonaws.com/fonts/Graphik-Light-Web.woff") format("woff");
+  font-weight: 300;
+  font-style: normal; }
+/* Graphik Light */
+@font-face {
+  font-family: 'Graphik';
+  src: url("https://cnry-webapp-testing.s3.amazonaws.com/fonts/Graphik-Light-Web.eot");
+  src: url("https://cnry-webapp-testing.s3.amazonaws.com/fonts/Graphik-Light-Web.eot?#iefix") format("embedded-opentype"), url("https://cnry-webapp-testing.s3.amazonaws.com/fonts/Graphik-Light-Web.woff") format("woff");
+  font-weight: 300;
+  font-style: normal; }
+nav {
+  width: 100%;
+  height: 85px;
+  border-bottom: solid 1px gray; }
+  nav ul {
+    margin-left: 25px; }
+    nav ul li {
+      list-style: none;
+      font-size: 15px;
+      font-family: 'Graphik';
+      float: left;
+      margin-right: 40px;
+      color: black;
+      line-height: 72px;
+      vertical-align: middle; }
+    nav ul a {
+      text-decoration: none;
+      color: black; }
+    nav ul a:hover {
+      text-decoration: underline;
+      color: black; }
+  nav #logIn {
+    position: absolute;
+    top: 35px;
+    right: 150px;
+    overflow: hidden; }
+  nav #logIn a {
+    font-family: 'Graphik';
+    color: LightGray; }
+
+@media (max-width: 375px) {
+  #logIn {
+    display: none; } }
+.container {
+  margin-left: 70px;
+  margin-right: 70px; }
+
+#headline {
+  width: 498px;
+  height: 120px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 250px;
+  margin-right: 300px;
+  text-align: center;
+  line-height: 230%; }
+
+h1 {
+  font-family: 'Graphik Light';
+  font-size: 32px;
+  color: black;
+  font-weight: bold; }
+
+#section_1 {
+  padding: 10px; }
+
+#start_saving {
+  /*min-width: 424px;*/
+  height: 360px;
+  /*margin-right: 100px;*/
+  /*overflow: hidden;*/ }
+  #start_saving p {
+    font-family: 'Graphik';
+    font-size: 14px;
+    line-height: 130%;
+    overflow: hidden; }
+    #start_saving p a {
+      color: #00cc66;
+      text-decoration: none; }
+
+#insurance_logos {
+  width: 424px;
+  height: 34px;
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+#insurance_logos img {
+  float: left;
+  width: 100px;
+  /*height: 34px;*/
+  margin-right: 20px;
+  overflow: hidden; }
+
+#homework {
+  /*min-width: 679px;*/
+  height: 379px;
+  margin-left: 50px;
+  /*overflow: hidden;*/ }
+
+#homework img {
+  overflow: hidden; }
+
+/*#section_2{
+
+	width: 1200px;
+	height: 279px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}*/
+#section_2 {
+  padding: 10px;
+  margin-top: 30px; }
+
+.phone {
+  height: 379px; }
+
+.phone img {
+  overflow: hidden; }
+
+.the_future {
+  overflow: hidden; }
+
+.the_future p {
+  overflow: hidden; }
+
+#section_3 {
+  background-color: #F8F8F8;
+  padding-bottom: 80px; }
+
+/* Graphik Semibold */
+@font-face {
+  font-family: 'Graphik-Semibold-Web';
+  src: url("https://cnry-webapp-testing.s3.amazonaws.com/fonts/Graphik-Semibold-Web.eot");
+  src: url("https://cnry-webapp-testing.s3.amazonaws.com/fonts/Graphik-Semibold-Web.eot?#iefix") format("embedded-opentype"), url("https://cnry-webapp-testing.s3.amazonaws.com/fonts/Graphik-Semibold-Web.woff") format("woff");
+  font-weight: 600;
+  font-style: normal; }
+#headline2 {
+  padding-top: 50px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: center;
+  line-height: 230%; }
+
+h2 {
+  font-family: 'Graphik-Semibold-Web';
+  font-size: 24px; }
+
+.row_insurance {
+  margin-left: 150px;
+  margin-bottom: 200px; }
+
+.frame {
+  background-color: white;
+  border: solid 1px LightGray;
+  height: 200px;
+  width: 270px;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  float: left; }
+
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle; }
+
+.helper img {
+  vertical-align: middle; }
+
+.frame p {
+  margin-top: -70px;
+  font-size: 10px;
+  color: LightGray; }
+
+.theft p {
+  font-size: 10px;
+  color: black; }
+
+.fineprint {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 10px;
+  color: Gray; }
+
+#footer {
+  height: 370px;
+  background-color: #48CCDF;
+  color: white; }
+
+#contact {
+  margin-right: 50px;
+  overflow: hidden;
+  text-align: center; }
+
+h3 {
+  font-family: 'Graphik';
+  font-size: 18px;
+  font-weight: lighter;
+  margin-top: 120px; }
+
+p {
+  font-family: 'Graphik';
+  font-size: 14px;
+  font-weight: lighter;
+  margin-top: 30px; }
+
+button {
+  background-color: white;
+  color: #48CCDF;
+  border-radius: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 30px;
+  box-shadow: none !important;
+  background-image: none !important;
+  outline: none !important;
+  -webkit-box-shadow: none !important; }
+
+/*mobile devices (375px and smaller)*/
+@media (max-width: 400px) {
+  #logIn {
+    display: none; }
+
+  #headline {
+    width: 498px;
+    height: 120px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    line-height: 230%; } }
+
+/*# sourceMappingURL=main.css.map */
